@@ -5,7 +5,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { styles } from '@/app/stylejs/style';
 import { navLinks } from '@/constants';
-import { logo, menu, close } from '@/assets';
+import { logo,instructables} from '@/assets';
+import { a } from 'maath/dist/objectSpread2-284232a6.esm';
+
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -63,7 +65,10 @@ const Navbar = () => {
               <Link href={`#${nav.id}`}>{nav.title}</Link>
             </li>
           ))}
+          <li > <div onClick={() => window.open("https://www.instructables.com/member/xprobyhimself/", "_blank")}><Image src={instructables}  className='bg-yellow-400 hover:bg-[#00ffbf]'  alt='instruct' width={40} style={{borderRadius:"20%"}} height={40} /> </div> 
+          </li>
         </ul>
+
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
        
@@ -91,6 +96,7 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+        
       </div>
     </nav>
   );

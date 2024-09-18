@@ -22,7 +22,7 @@ const Ball = (props) => {
         {/* Changed icosahedronGeometry to sphereGeometry */}
         <sphereGeometry args={[1, 32, 32]} />  
         <meshStandardMaterial
-          color='#fff8eb'
+          color='#00ffbf'
           polygonOffset
           polygonOffsetFactor={-5}
           flatShading

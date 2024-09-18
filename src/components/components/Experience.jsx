@@ -9,22 +9,24 @@ import { experiences } from "@/constants"; // Ensure the path to constants is co
 import { SectionWrapper } from "@/hoc";
 import { textVariant } from "@/utils/motion"; // Ensure motion utility path is correct
 import { useInView } from "react-intersection-observer";
+import { zoomIn } from "@/utils/motion";
 
 const ExperienceCard = ({ experience }) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
+    
   });
   return(
-    <section ref={ref}>
+    <section ref={ref} style={{margin:"15px"}} >
   <VerticalTimelineElement
     contentStyle={{ background: "#1d1836", color: "#fff" }} // Card background and text color
-    contentArrowStyle={{ borderRight: "7px solid #232631" }} // Arrow style
+    contentArrowStyle={{ borderRight: "15px solid #232631" }} // Arrow style
     date={experience.date} // Experience date
     iconStyle={{ background: experience.iconBg }} // Icon background color
     visible={ inView }
     icon={
       <div className='flex justify-center items-center w-full h-full '>
-        <img src={experience.icon} alt={experience.company_name} className='w-[60%] h-[60%] object-contain' />
+        <img src={experience.icon} alt={experience.company_name} className='w-[60%] h-[60%] object-contain ' />
       </div>
     }
   >
@@ -47,7 +49,7 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => (
   <>
-    <motion.div variants={textVariant()}>
+    <motion.div variants={textVariant(1)}>
       <p className={`${styles.sectionSubText} text-center`}>What I have done so far</p>
       <h2 className={`${styles.sectionHeadText} text-center`}>Work Experience.</h2>
     </motion.div>

@@ -1,31 +1,13 @@
 "use client";
+import TypeScript from "@/components/components/icons/TypSscript";
 
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
+
   jobit,
   tripguide,
-  threejs,
+  
 } from "../assets";
+import  {IconLanguageC,IconNextjs,IconReact,IconThreedotjs,IconTypescript} from "@/svgIcon";
 
 export const navLinks = [
   {
@@ -64,8 +46,9 @@ const services = [
 const technologies = [
   {
     name: "React",
-    icon: "https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256",
-  },
+icon:"https://img.icons8.com/?size=100&id=SB6eApJMkq1S&format=png&color=000000"  
+
+},
   {
     name: "c/c++",
     icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJ92PkgdYze3IbQqvqC9UqQJ4jI9B23-s4A&s",      
@@ -84,6 +67,7 @@ const technologies = [
   
 },
 ];
+
 
 const experiences = [
   {
