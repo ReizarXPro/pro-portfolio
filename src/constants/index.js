@@ -7,7 +7,7 @@ import {
   tripguide,
   
 } from "../assets";
-import  {IconLanguageC,IconNextjs,IconReact,IconThreedotjs,IconTypescript} from "@/svgIcon";
+import  {IconLanguageC,IconReact,IconThreedotjs,IconTypescript} from "@/svgIcon";
 
 export const navLinks = [
   {
