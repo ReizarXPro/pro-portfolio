@@ -73,7 +73,6 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "react",
-    icon: "https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256",
     iconBg: "#383E56",
     date: "",
     points: [
