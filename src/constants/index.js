@@ -103,7 +103,7 @@ const experiences = [
   {
     title: "NextJs Developer",
     company_name: "NextJs",
-    icon: "https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png",
+    icon: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png",
     iconBg: "#383E56",
     date: "",
     points: [
