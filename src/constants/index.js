@@ -63,7 +63,6 @@ icon:"https://img.icons8.com/?size=100&id=SB6eApJMkq1S&format=png&color=000000"
   },{
   name: "NextJs",
   
-    icon: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png",
   
 },
 ];
