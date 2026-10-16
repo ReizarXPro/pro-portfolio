@@ -20,17 +20,17 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
       >
         <div className='relative w-full h-[230px]'>
           <img
-            src={"https://www.clipartmax.com/png/middle/323-3238321_collection-of-free-contracting-clipart-service-project-icon-black-and-white.png"} // Ensure this image path works properly, likely from public/ folder
-            alt='project_image'
+            src={image}
+            alt={name}
             className='w-full h-full object-cover rounded-2xl'
           />
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
-              onClick={() => window.open(source_code_link, "_blank")} // Ensure client-side action
+              onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeoRlXV3lsU1gkqpsA0Om8jSyF3hMb8EUrNg&s"} // Ensure github icon path is correct
+                src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeoRlXV3lsU1gkqpsA0Om8jSyF3hMb8EUrNg&s"}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />

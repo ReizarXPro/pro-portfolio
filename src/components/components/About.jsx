@@ -45,9 +45,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As an experienced software developer, I specialize in TypeScript and JavaScript and have deep expertise in frameworks such as React, Node.js, and Three.js. I also have a strong background in robot programming with C and utilizing ROS (Robot Operating System). I am a fast learner who works closely with clients to develop efficient, scalable, and user-friendly solutions that address real-world challenges. Let’s collaborate to transform your ideas into innovative solutions!
-
-
+        My experience in dynamic startup environments has shaped a diverse skill set across full-stack development, user-centric design, embedded systems, robotics, and network administration. I build efficient products, MVPs, and interactive experiences that solve real-world problems with speed and quality.
+        <br /><br />
+        I work comfortably with JavaScript, TypeScript, Next.js, React, Three.js, Node, HTML, CSS, Tailwind, Docker, Web3, React Native, C/C++, Python, ROS2, and network tools including DHCP, subnetting, IPv4/IPv6, routing, ARP, Ethernet, and Cisco Packet Tracer. I enjoy combining software, hardware, and practical infrastructure knowledge to create modern, reliable solutions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

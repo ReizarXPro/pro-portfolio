@@ -38,9 +38,9 @@ const Contact = () => {
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "ReizarXPro",
+          to_name: "Rammeh Bejaoui",
           from_email: form.email,
-          to_email: "xprobyhimself@gmail.com",
+          to_email: "rammeh.be@gmail.com",
           message: form.message,
         },
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
