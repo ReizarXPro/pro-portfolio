@@ -113,7 +113,7 @@ const projects = [
       { name: "pid", color: "green-text-gradient" },
       { name: "embedded", color: "pink-text-gradient" },
     ],
-    image: "https://content.instructables.com/FFU/OI9D/M09KYG8U/FFUOI9DM09KYG8U.jpg?auto=webp&width=1600&height=900&fit=bounds&md=MjAyNC0wOC0yNSAwODozOTowMi4w",
+    image: "https://content.instructables.com/FMT/0YMO/M09KYFWN/FMT0YMOM09KYFWN.png?auto=webp&width=1600&height=900&fit=bounds&md=MjAyNC0wOC0yNSAwODoxOTowMy4w",
     source_code_link: "https://www.instructables.com/Line-Follower-Robot-1/",
   },
   {
@@ -125,8 +125,7 @@ const projects = [
       { name: "opencv", color: "green-text-gradient" },
       { name: "computer-vision", color: "pink-text-gradient" },
     ],
-    image: "https://content.instructables.com/FMT/0YMO/M09KYFWN/FMT0YMOM09KYFWN.png?auto=webp&width=1600&height=900&fit=bounds&md=MjAyNC0wOC0yNSAwODoxOTowMy4w",
-    source_code_link: "https://www.linkedin.com/in/rammeh-bejaoui-6a0983342/",
+    image: "https://content.instructables.com/FFU/OI9D/M09KYG8U/FFUOI9DM09KYG8U.jpg?auto=webp&width=1600&height=900&fit=bounds&md=MjAyNC0wOC0yNSAwODozOTowMi4w",
   },
 ];
 
